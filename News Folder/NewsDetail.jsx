@@ -21,7 +21,7 @@ const NewsDetail = () => {
           <Col key={data.id} className="mb-5 border border-p-5">
             <p className="desc shadow animate__animated animate__backInUp animate__delay-2s">{data.desc}</p>
             <div className="people">
-              <img src={data.image} alt={data.title} className="w-full h-64 object-hover animate__animated animate__backInUp animate__delay-1s"/>
+              <img src={data.image} alt={data.title} className="w-full h-20 m-1 object-hover animate__animated animate__backInUp animate__delay-1s"/>
               <div>
                 <h5 className='text-3xl animate__animated animate__backInUp animate__delay-1s"'>{data.name}</h5>
                 <p className='text-md animate__animated animate__backInUp animate__delay-1s"'>{data.skill}</p>
